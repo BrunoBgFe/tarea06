@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominando la fuerza del CSS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="cabecera">
+        <a href="#">Personajes</a>
+        <a href="#">Naves</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <div class="calc">
+        <h1>DOMINANDO LA FUERZA DEL CSS</h1>
+        <p>Posicionamiento, filtros y transformaciones</p>
+    </div>
+
+    <div class="contenedor">
+        <div class="tarjetas">
+
+            <div class="tarjeta luke">
+                <div class="imagen">
+                    <img src="img/luke skywalker.png" alt="Luke Skywalker">
+                    <span class="etiqueta etiqueta-azul">JEDI</span>
+                </div>
+
+                <div class="contenido">
+                    <h2>Luke Skywalker</h2>
+                    <p>El último caballero Jedi.</p>
+                </div>
+            </div>
+
+            <div class="tarjeta vader">
+                <div class="imagen">
+                    <img src="img/darth vader.webp" alt="Darth Vader">
+                    <span class="etiqueta etiqueta-roja">SITH</span>
+                </div>
+
+                <div class="contenido">
+                    <h2>Darth Vader</h2>
+                    <p>Señor oscuro del Imperio.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="boton-flotante"
+         role="button"
+         aria-label="Volver arriba"
+         onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </div>
+
+</body>
+</html>
